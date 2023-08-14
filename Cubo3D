@@ -1,0 +1,10 @@
+function setup() {
+  createCanvas(100, 100, WEBGL);
+  describe('a white box rotating in 3D space');
+}
+
+function draw() {
+  background(200);
+  rotateY(frameCount * 0.04);
+  box(50, 25);
+}
